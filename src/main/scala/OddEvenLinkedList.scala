@@ -2,8 +2,9 @@ package com.varaprasad
 
 import helper.ListNode
 
-import scala.annotation.tailrec
-
+/**
+ * https://leetcode.com/problems/odd-even-linked-list/
+ */
 object OddEvenLinkedList {
   def oddEvenList(head: ListNode): ListNode = {
     if (head == null || head.next == null) {

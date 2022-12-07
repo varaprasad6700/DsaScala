@@ -4,6 +4,9 @@ import helper.ListNode
 
 import scala.annotation.tailrec
 
+/**
+ * https://leetcode.com/problems/middle-of-the-linked-list/
+ */
 object MiddleLinkedList extends App {
 
   def middleNode(head: ListNode): ListNode = {
